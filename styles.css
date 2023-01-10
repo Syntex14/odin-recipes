@@ -1,4 +1,33 @@
+body {
+    margin: 0px;
+}
+
 h1 {
     text-align: center;
+    color: navy;
+}
+
+nav {
+    float:left;
+    width: 100%;
+}
+
+.menu {
+    margin: 0;
+    padding: 8px;
+    height: 21px;
+    background-color: black;
+}
+
+.menu li {
+    display: inline;
+
+}
+
+.linky {
+    color:white;
+    padding
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
 
 }
