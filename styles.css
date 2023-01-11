@@ -21,22 +21,24 @@ nav {
 .menu {
     margin: 0;
     padding: 0px;
-    height: 40px;
+    height: 60px;
+    
     background-color: navy;
-    border-width: 2px;
-    border-color: red; 
-    border-style: dotted;
+    border-width: 5px;
+    border-color: black; 
+    border-style: solid;
 }
 
 .menu li {
     display: inline;
+    padding-top: 10%;
+    padding-bottom: 10%;
 
 }
 
 .linky {
     color:white;
-    padding: 10px;
     font-size: 1em;
-    font-family: 'Times New Roman', Times, serif;
+    padding-right:10%;
 
 }
