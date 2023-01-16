@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: brown;
+
+}
+
+.navselection {
+    display: flex;
+
+}
+
+.navselection li {
+    list-style-type:none;
+}
