@@ -1,7 +1,8 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-
+    background-color: rgb(130, 191, 226);
+    margin: 0px;
 }
 
 body {
@@ -13,21 +14,43 @@ h1 {
     color: navy;
 }
 
+.mainmenu {
+    display: flex;
+    background-color:lightblue;
+    gap: 1em;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.mainmenu a {
+    flex: auto;
+
+}
+
+.mainmenu img {
+    height: 100px;
+    width: 100px;
+}
+
+.mainmenu a {
+    text-decoration: none;
+}
+
+.mainmenu a:nth-of-type(4) {
+    margin-left: auto;
+}
+
 .menu ul {
     display: flex;  
-    background-color: lightblue;
-    padding: 5px;
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-    width: 700px;
-    flex-direction: row;
+    padding: 5px;  
+    flex-flow: row nowrap;
 }   
 
 .menu li {
     flex: 1;
     list-style: none;
     text-align: center;
+    justify-content: space-between;
 
 }
 
@@ -53,5 +76,5 @@ h1 {
 .ShoresNine img {
     Height: 200px;
     Width: 200px;
-    margin-left: auto;
+    margin-right: auto;
 }
